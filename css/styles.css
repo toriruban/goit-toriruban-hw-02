@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #e7e9fc;
+  background-color: #FFFFFF;
   color: #434455;
 }
 
@@ -18,33 +18,58 @@ a {
 }
 
 .logo-first-part {
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 
 .logo-second-part {
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #2e2f42;
 }
 
+
 .main-navigation li a{
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.main-navigation li a:hover{
+  color: #404BBF;
 }
 
 .contacts li a {
   font-size: 16px;
   line-height: 1.5;
+  font-style: normal;
   color: #434455;
+  letter-spacing: 00.02em;
+}
+
+.contacts li a:hover{
+  color: #404BBF;
+}
+
+.hero-section{
+  background-color: #2e2f42;
 }
 
 .hero-section h1 {
   font-size: 56px;
   line-height: 1.7;
   color: #ffffff;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero-section button {
@@ -53,58 +78,88 @@ a {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.04em;
 }
 
-.information-us li h3 {
+.hero-section button:hover,
+.hero-section button:focus{
+  background-color: #404BBF;
+}
+
+.information-us li h2 {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .information-us li p {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em;
+}
+.our-team{
+  background-color: #f4f4fd;
 }
 
-.team h2 {
+.our-team h2 {
   font-size: 36px;
   line-height: 1.11;
   color: #2e2f42;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  background-color: #FFFFFF;
 }
 
 .about-team li h3 {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  background-color: #FFFFFF;
+  letter-spacing: 0.02em;
 }
 
 .about-team li p {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  background-color: #FFFFFF;
+  letter-spacing: 0.02em;
 }
 
-.portfolio h2 {
+
+.work-portfolio h2 {
   font-size: 36px;
   line-height: 1.11;
   color: #2e2f42;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .portfolio-about li h3 {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-about li p {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em;
 }
 
 .footer-info p {
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
+
