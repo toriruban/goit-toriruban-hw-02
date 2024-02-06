@@ -50,6 +50,7 @@ a {
   font-style: normal;
   color: #434455;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .contacts-side:hover,
@@ -169,7 +170,7 @@ a {
 }
 
 .logo-second-part-footer{
-  color:#f4f4fd ;
+  color: #f4f4fd ;
 }
 
 .footer-paragraph{
