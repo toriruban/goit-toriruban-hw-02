@@ -11,15 +11,14 @@ ul {
 a {
   text-decoration: none;
 }
-
-.logo-first-part {
+.logo-site{
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color:#4d5ae5;
 }
 
 .logo-second-part {
@@ -32,30 +31,31 @@ a {
   color: #2e2f42;
 }
 
-
-.main-navigation li a{
+.main-navigation{
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color:#2E2F42;
 }
-.main-navigation li a:hover{
+
+.main-navigation:hover,
+.main-navigation:focus{
   color: #404BBF;
 }
 
-.contacts li a {
+.contacts-side {
   font-size: 16px;
   line-height: 1.5;
   font-style: normal;
   color: #434455;
-  letter-spacing: 00.02em;
+  letter-spacing: 0.02em;
 }
 
-.contacts li a:hover{
+.contacts-side:hover,
+.contacts-side:focus {
   color: #404BBF;
 }
-
 .section-header {
   background-color: #2e2f42;
 }
@@ -166,16 +166,6 @@ a {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-}
-
-.logo-site{
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
 }
 
 .logo-second-part-footer{
