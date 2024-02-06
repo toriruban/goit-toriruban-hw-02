@@ -44,12 +44,15 @@ a {
   color: #404BBF;
 }
 
-.contact-us .contacts-side {
+address{
+  font-style: normal;
+}
+
+.contacts-side {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 
 .contacts-side:hover,
