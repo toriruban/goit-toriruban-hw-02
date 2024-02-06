@@ -1,0 +1,110 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e7e9fc;
+  color: #434455;
+}
+
+.logo-first-part,
+.logo-second-part {
+  font-family: "Raleway", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-first-part {
+  font-size: 18px;
+  line-height: 1.17;
+  color: #4d5ae5;
+}
+
+.logo-second-part {
+  font-size: 18px;
+  line-height: 1.17;
+  color: #2e2f42;
+}
+
+.main-navigation li a{
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.contacts li a {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.hero-section h1 {
+  font-size: 56px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+.hero-section button {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.information-us li h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.information-us li p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.team h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+}
+
+.about-team li h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.about-team li p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.portfolio h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+}
+
+.portfolio-about li h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.portfolio-about li p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.footer-info p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
+}
