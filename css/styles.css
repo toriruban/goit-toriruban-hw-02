@@ -104,7 +104,7 @@ a {
   background-color: #f4f4fd;
 }
 
-.about-team{
+.about-member{
   background-color: #FFFFFF;
 }
 
@@ -161,8 +161,14 @@ a {
   background-color: #2e2f42;
 }
 
-.logo-second-part-footer{
-  color: #f4f4fd ;
+.footer-class {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+
+.logo-site{
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -172,8 +178,11 @@ a {
   color: #2e2f42;
 }
 
-.footer-class {
-  font-size: 16px;
+.logo-second-part-footer{
+  color:#f4f4fd ;
+}
+
+.footer-paragraph{
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
